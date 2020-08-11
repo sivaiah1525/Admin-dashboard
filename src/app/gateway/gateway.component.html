@@ -1,0 +1,31 @@
+<app-navbar></app-navbar>
+<div class="container-fluid">
+    <div class="table-responsive mt-5">
+        <table class="table table-bordered">
+            <thead class="bg-primary text-white">
+                <tr>
+                    <th scope="col">S No</th>
+                    <th scope="col">Gateway Ip</th>
+                    <th scope="col">Gateway Ip</th>
+                    <th scope="col">Network Name/ ID</th>
+                    <th scope="col">Machine Name</th>
+                    <th scope="col">Machine Purpose</th>
+                    <th scope="col">Machine IP</th>
+                    <th scope="col">Company Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let x of table;index as i;">
+                    <th scope="row">{{i+1}}</th>
+                    <td>{{x.GatewayID}}</td>
+                    <td>{{x.GatewayIP}}</td>
+                    <td>{{x.NetWorkName}}</td>
+                    <td>{{x.Mechinename}}</td>
+                    <td>{{x.mechinepurpose}}</td>
+                    <td>{{x.MechineIP}}</td>
+                    <td>{{x.CompanyName}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

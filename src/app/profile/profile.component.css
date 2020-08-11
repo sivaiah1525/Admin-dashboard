@@ -1,0 +1,11 @@
+.col-md-5 h2 {
+  margin: 40px;
+}
+.col-md-7 input {
+  margin: 25px 0px 25px 0px;
+}
+.border {
+  border: 1px solid gray;
+  padding: 10px;
+  margin-top: 15px;
+}

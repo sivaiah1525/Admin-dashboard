@@ -1,0 +1,21 @@
+<div class="nav">
+    <div id="mySidebar" class="sidebar">
+        <h4 href="javascript:void(0)" class="closebtn" (click)="closeNav()">×</h4>
+        <a routerLink="/gateways">Gateways</a>
+        <a routerLink="/network">Networks</a>
+        <a routerLink="/profile">Profile</a>
+    </div>
+    <div id="main">
+        <button class="openbtn" (click)="openNav()">☰</button>
+    </div>
+    <div>
+        <img src="../../assets/images/special-price-concept-3d-illustration-isolated-on-white-background-PBAH6D.jpg">
+    </div>
+    <div class="head">
+        <h1 class="navtitle">{{title}}</h1>
+    </div>
+    <div class="ml-auto ">
+        <button class="btn text-white pt-3">Log Out</button>
+    </div>
+</div>
+<router-outlet></router-outlet>
